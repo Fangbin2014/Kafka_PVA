@@ -10,6 +10,7 @@ import MySQLdb
 
 import paho.mqtt.publish as publish
 import json
+import os
 
 
 # topic = sys.argv[1]
