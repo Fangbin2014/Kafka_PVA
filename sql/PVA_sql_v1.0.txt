@@ -1,0 +1,38 @@
+-- 程序名
+SELECT sender,msg_type,create_time,product_name
+FROM ods_pva_mqtt
+WHERE 
+sender = 'AE-9047'
+AND product_name is not NULL
+ORDER BY create_time DESC LIMIT 10;
+
+-- 机器状态
+SELECT sender,msg_type,create_time,`Event`
+FROM ods_pva_mqtt
+WHERE 
+sender = 'AE-9047'
+ORDER BY create_time DESC LIMIT 10;
+
+
+-- UPH
+select * from (SELECT
+DATE_FORMAT(create_time, '%Y-%m-%d') R_Date,
+DATE_FORMAT(create_time, '%H') R_Hour,
+COUNT(create_time) R_UPH
+FROM ods_pva_mqtt
+WHERE 
+sender = 'AE-9047'
+AND `Event` = 'Cycle Complete'
+and create_time BETWEEN (select date_format(now(),'%Y-%m-%d 00:00:00') as start_time_2)
+AND (select date_format(now(),'%Y-%m-%d 23:59:59') as start_time_2)
+GROUP BY R_Hour ORDER BY id DESC LIMIT 24) a order by R_Hour;
+
+
+-- 获取最近的5条消息记录_AVI
+SELECT sender,msg_type,create_time,`Event`
+FROM ods_pva_mqtt
+WHERE 
+sender = 'AE-9047'
+ORDER BY create_time DESC LIMIT 5;
+
+
