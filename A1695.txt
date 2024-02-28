@@ -1,0 +1,62 @@
+
+C:\Program Files (x86)\PVAPortal\Data\W7484
+
+
+
+
+C:\Users\PVA>ipconfig /all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : PVA-A1695
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : corp.jabil.org
+
+Ethernet adapter Ethernet 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Realtek PCIe GbE Family Controller #2
+   Physical Address. . . . . . . . . : 00-13-3B-E4-37-50
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : corp.jabil.org
+   Description . . . . . . . . . . . : Realtek PCIe GbE Family Controller
+   Physical Address. . . . . . . . . : 00-13-3B-E7-13-45
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::2093:1eb0:e956:81ab%15(Preferred)
+   IPv4 Address. . . . . . . . . . . : 10.115.192.171(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.254.0
+   Lease Obtained. . . . . . . . . . : Tuesday, November 14, 2023 2:27:37 PM
+   Lease Expires . . . . . . . . . . : Tuesday, November 14, 2023 3:27:47 PM
+   Default Gateway . . . . . . . . . : 10.115.192.1
+   DHCP Server . . . . . . . . . . . : 10.114.21.10
+   DHCPv6 IAID . . . . . . . . . . . : 251663163
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2C-A3-9B-AB-00-13-3B-E7-13-45
+   DNS Servers . . . . . . . . . . . : 10.114.16.143
+                                       172.26.160.70
+                                       172.26.160.69
+   Primary WINS Server . . . . . . . : 172.26.160.54
+   Secondary WINS Server . . . . . . : 172.31.10.100
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Galil LAN (On-Board):
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Intel(R) Ethernet Connection (17) I219-LM
+   Physical Address. . . . . . . . . : CC-96-E5-12-EB-39
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   IPv4 Address. . . . . . . . . . . : 100.100.100.100(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+C:\Users\PVA>ipconfig /all
